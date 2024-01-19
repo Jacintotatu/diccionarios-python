@@ -8,11 +8,11 @@ for amigo, ciudades in lugares_favoritos.items():
     print(f"\nLas ciudades favoritas de {amigo.title()} son: ")
     for ciudad in ciudades:
         if amigo == 'tarantino' and ciudad == 'california':
-            ciudad = 'California is the best'
+            ciudad = 'California ❤️'
         elif amigo == 'michael' and ciudad == 'tayante':
-            ciudad = 'Tayante is the best'
+            ciudad = 'Tayante ❤️'
         elif amigo == 'brad' and ciudad == 'calasparra':
-            ciudad = 'Calasparra is the best'
+            ciudad = 'Calasparra ❤️'
             
 
         print(f"\t*  {ciudad.title()}")
