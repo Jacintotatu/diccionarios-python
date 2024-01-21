@@ -13,6 +13,8 @@ users = {
 
     }
 
+users['mknigth'] = {'first': 'Michael', 'last': 'Knigth', 'location': 'EEUU',} 
+
 for username, user_info in users.items():
     print(f"\nUsername: {username}")
     full_name = f"{user_info['first']} {user_info['last']}"
